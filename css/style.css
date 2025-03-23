@@ -37,7 +37,7 @@ li .search{ background: none; border: none; color: #fff; font-size: 18px;}
 .banner .bx-controls .bx-has-controls-direction .bx-has-pager{ display: none;}
 .sepreator{ width: 60px; height: 3px; background:var(--red); margin: 50px auto;}
 .part-1 .sepreator{background:#fff; margin: 3rem auto;}
-.page a{ color: #fff; border:3px solid; width:10rem;  display: inline-block; font: bold 14px/34px var(--ff);}
+.page a{ color: #fff; border:3px solid; width:10rem;  display: inline-block; font: bold 1rem/34px var(--ff);}
 .pagers{ margin-top: 3rem;}
 .pagers li{ margin:0 1rem; flex: 0 1 25%; }
 .pagers .progress{ background: #fff;  height: 3px; position: relative;}
@@ -109,7 +109,7 @@ h2{ font: bold 2rem var(--ff); text-transform: uppercase; ;}
 
 .part-7{ background: #f8f8f8; text-align: center; padding: 5rem 0;}
 .part-7 img{ border: 1px solid #e5e5e5; padding: 3rem; float: left; margin-right: 6rem; margin-top: 2rem;}
-.part-7 p{ font: 24px/36px roboto ,serif; font-style: italic; text-align: left; }
+.part-7 p{ font: 1.7rem/36px roboto ,serif; font-style: italic; text-align: left; }
 
 .part-7 .bx-pager-item{display: inline-block; margin: 10px;}
 .part-7 .bx-wrapper .bx-pager.bx-default-pager a{border: 2px solid #000; font-size: 0; padding: 5px; border-radius: 50%;}
@@ -210,7 +210,6 @@ form button{ color: #fff; background: #313030; font: 18px  var(--ff); border: no
 .col-t-10{ grid-column:span 10;}
 .col-t-11{ grid-column:span 11;}
 .col-t-12{ grid-column:span 12;}
-.ac{margin: auto;}
 .page .kau{ font-size:3rem; margin-top: 8rem;}
 .page .bold{ font-size: 7rem;}
 nav li{ margin: 0 1rem;}
@@ -256,8 +255,10 @@ nav li{ margin: 0 1rem;}
 .collapse-nav ul{background: #f38181; border:2px solid #fff; border-radius: 20px 0; }
 .collapse-nav .flex{ flex-direction: column;}
 .collapse{display: block;}
-.page .kau{ font-size:2rem; margin-top:4rem;}
-.page .bold{ font-size: 4rem;}
+.part-1 .sepreator{margin: 1.5rem auto;}
+.page a{width: 8rem;}
+.page .kau{ font-size:1.5rem; margin-top:2rem;}
+.page .bold{ font-size: 2.5rem;}
 .pagers p{ font-size: 1rem;}
 .part-6 li{ width:25rem;}
 .part-6 ul{ margin-left: 0;}
