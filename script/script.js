@@ -20,9 +20,8 @@ $(function(){
     })
 
     $(".collapse").click(function(e){
-        e.preventDefault();
         $(".collapse-nav").slideToggle(500)
-        $(".collapse").toggleClass("active")
+        $(this).toggleClass("active")
         $(".cart-item").slideUp()
         
         $(".crt").click(function(){
@@ -33,7 +32,6 @@ $(function(){
 
     if(screen.width<481){
         $(".collapse-nav a").click(function(e){
-            e.preventDefault();
             $(".collapse-nav").slideUp()
             $(".collapse").removeClass("active")
         })
