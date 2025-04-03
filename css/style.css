@@ -24,7 +24,6 @@ body{font: 16px ;}
 .part-1{background: url(../img/back-1.webp) no-repeat center top/cover; color: #fff;}
 header{ padding: 26px 0;}
 h1 a{ color: inherit; font:bold 30px var(--ff); padding: 1rem 0; }
-nav ul{ margin-right:-4rem;}
 nav li {margin: 0 2rem;}
 nav li:hover a{ border-bottom: 3px solid #fce38a; color: #fce38a;}
 nav a{color: #fff; font: 14px var(--ff); display: block; line-height: 36px; text-transform: uppercase; }
@@ -49,7 +48,7 @@ h3{ font-family: var(--ff);}
     0%{ width: 0%;}
     100%{ width: 100%;}
 }
-.collapse{display: none; width: 60px;; border: 2px solid #fff; border-radius: 20px; margin-left: 4rem;}
+.collapse{display: none; width: 60px;; border: 2px solid #fff; border-radius: 20px;}
 .collapse span{ width: 10px; height: 10px;  border-radius: 50%; background: #fff; margin: 10px 1px; display:inline-block;}
 .collapse span:first-child{margin-left: 8px;}
 .collapse.active{ background:#fff;}
@@ -251,9 +250,8 @@ nav li{ margin: 0 1rem;}
 .col-p-10{ grid-column:span 10;}
 .col-p-11{ grid-column:span 11;}
 .col-p-12{ grid-column:span 12;}
-.collapse-nav{display: none; position: absolute; top: 80px;  right: 80px; z-index:1 ;}
-.collapse-nav ul{background: #f38181; border:2px solid #fff; border-radius: 20px 0; }
-.collapse-nav .flex{ flex-direction: column;}
+nav{display: none; position: absolute; top: 80px;  right: 0; width: 100%;background: #f38181; z-index: 1;}
+nav .flex{ flex-direction: column; align-items: end;}
 .collapse{display: block;}
 .part-1 .sepreator{margin: 1.5rem auto;}
 .page a{width: 8rem;}

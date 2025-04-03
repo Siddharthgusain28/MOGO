@@ -20,19 +20,19 @@ $(function(){
     })
 
     $(".collapse").click(function(e){
-        $(".collapse-nav").slideToggle(500)
+        $("nav").slideToggle(500)
         $(this).toggleClass("active")
         $(".cart-item").slideUp()
         
         $(".crt").click(function(){
-            $(".collapse-nav").slideUp()
+            $("nav").slideUp()
             $(".collapse").toggleClass("active")
         })
     })
 
     if(screen.width<481){
-        $(".collapse-nav a").click(function(e){
-            $(".collapse-nav").slideUp()
+        $("nav a").click(function(e){
+            $("nav").slideUp()
             $(".collapse").removeClass("active")
         })
 
@@ -47,7 +47,7 @@ $(function(){
     })
 
     $(".search").click(function(){
-        $(".collapse-nav nav").toggleClass("active")
+        $(" nav").toggleClass("active")
         $(".search-box").slideToggle()
     })
 
