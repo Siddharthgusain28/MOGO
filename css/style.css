@@ -37,17 +37,29 @@ li .search{ background: none; border: none; color: #fff; font-size: 18px;}
 .sepreator{ width: 60px; height: 3px; background:var(--red); margin: 50px auto;}
 .part-1 .sepreator{background:#fff; margin: 3rem auto;}
 .page a{ color: #fff; border:3px solid; width:10rem;  display: inline-block; font: bold 1rem/34px var(--ff);}
-.pagers{ margin-top: 3rem;}
+h3{ font-family: var(--ff);}
+
+/* .pagers{ margin-top: 3rem;}
 .pagers li{ margin:0 1rem; flex: 0 1 25%; }
 .pagers .progress{ background: #fff;  height: 3px; position: relative;}
 .pagers p { text-align: left; font-size: 18px; font-family: var(--ff); margin-top: 1.5rem;}
 .pagers p b{ font-size:24px;}
-h3{ font-family: var(--ff);}
 .pagers .active .progress::before{content: ""; position: absolute; left: 0; width: 0; bottom: 0; top: 0; background: var(--red); animation: moveleft 4s  linear;} 
 @keyframes moveleft {
     0%{ width: 0%;}
     100%{ width: 100%;}
+} */
+
+.part-1 .bx-pager-item{display: inline-block; margin: 10px; flex: 0 1 25%; height: 5px; background: #fff;}
+.part-1 .bx-pager.bx-default-pager{display: flex;}
+.part-1 .bx-wrapper .bx-pager.bx-default-pager a{ font-size: 0; width: 100%; height: 100%; display:block; position: relative; }
+.part-1 .bx-wrapper .bx-pager.bx-default-pager a.active::before,.part-1 .bx-wrapper .bx-pager.bx-default-pager a:focus,.part-1 .bx-wrapper .bx-pager.bx-default-pager a:hover{content: ""; position: absolute; left: 0; width: 0; bottom: 0; top: 0; background: var(--red); animation: moveleft 3.5s  linear; }
+@keyframes moveleft {
+    0%{ width: 0%;}
+    100%{ width: 100%;}
 }
+
+
 .collapse{display: none; width: 60px;; border: 2px solid #fff; border-radius: 20px;}
 .collapse span{ width: 10px; height: 10px;  border-radius: 50%; background: #fff; margin: 10px 1px; display:inline-block;}
 .collapse span:first-child{margin-left: 8px;}

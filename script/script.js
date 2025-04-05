@@ -10,7 +10,7 @@ $(function(){
 
     $(".pages").bxSlider({
         auto:true,
-        pager:false,
+        pager:true,
         pause:3500,
         controls:false
     })
